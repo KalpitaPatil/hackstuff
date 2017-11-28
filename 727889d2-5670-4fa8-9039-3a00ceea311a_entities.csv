@@ -1,0 +1,67 @@
+AgeGroup,agegroup,age group,age limit
+Contact,Email
+Contact,Contact
+content,Calcium content,calcium,% of calcium,percentage of calcium,percent of calcium,calcium percent
+content,Fat
+content,Protein
+content,Carbohydrate
+content,Phosphorous
+content,1 serve,1 serve
+content,Drinks per pack,number of drinks per pack,no. of drinks per pack
+content,color,colours,Color
+discount,discount1,discount on 1 kg,discount on large,discount on 1000 gm,1 kg discount,large discount,1000 gm discount,1 kg,large size
+discount,discount,discount
+discount,discount200,discount on 200 gm,200 gm discount,small size discount,small discount,small size,200 gm
+discount,discount500,discount on 500 gm,500 gm discount,medium discount,discount on medium size,500 gm,medium size
+done,like,like its taste,taste,smell
+done,Others
+done,done,that's all,done
+Expiry,expiry,long,validity,expiry,last date
+flavour,Mango,mango
+flavour,flavour,flavours,flavrs,options,choices,choice,option,flvours,flavr
+flavour,original,original flavour,Original
+flavour,chocolate,Chocolate flavour,choclate
+flavour,Strawberry,strawberry
+flavour,Kesar badam,Kesar badam
+Greeting,help,Help
+Greeting,Bye,Good Night,Sweet Dreams,Good bye,bye
+Greeting,Hi,Hello,Good Morning,Good Evening,good afternoon,Good day
+HorlicksScience,Acidity Regulator
+HorlicksScience,Choline
+HorlicksScience,DHA
+HorlicksScience,Immune,immunity
+ingredients,ingredients,contents,content,ingredient
+Issues,balancedDiet,balanced diet,balanced,nutritious,Diet
+Issues,breakfast,breakfast important,breakfast
+Issues,CalciumWeight,Calcium intake,weight and calcium,Calcium impact my child's weight,Calcium affects child's weight,Calcium and weight gain,Calcium
+Issues,fussyEater,fussy eater,fussy about eating,fussy
+Issues,HealthyDiet,Healthy Diet
+Issues,refuseToEat,does'nt eat,don't eat,refuses to eat
+Issues,snacks,healthy snacks
+Issues,Vegetarian,Veg,Vegetarian
+Issues,issues
+JuniorHorlicks,Junior_Horlicks,Junior Horlicks,horlicks for kids,junoir horlicks,junior horlcks
+JuniorHorlicks,Junior
+JuniorHorlicks,Horlicks
+kid,child,kid,son,daughter,child,children
+no,no,no
+Order,Horlicks,junior
+Order,order,buy,order,purchase,add
+OtherProducts,Complan
+OtherProducts,Bournvita
+OtherProducts,Boost
+price,large,416,1 kg
+price,medium,275,500 gm
+price,price,prices,price,cost,expense
+price,"Small- Rs.128.25, Medium-Rs. 275, Large- Rs. 416",price
+price,small,128.25,200 gm
+price,medium(500gm)Rs.300
+price,larger(1kg)Rs.500
+price,small(200gm)Rs.200
+sideEffects,side_effects,adverse effect,impact,adverse impact,adverse,side effect,negative,side efect
+size,small,200gm,small,smallest
+size,medium,500gm,medium
+size,large,1kg,large,biggest,big
+stage,Stage 1,2,2.1,2.2,2.3,2.4,2.5,2.6,2.7,2.8,2.9,3,2.11
+stage,Stage 2,4.1,4.2,4.3,4.4,4.5,4.6,4.7,4.8,4.9,4.11,5,5.1,5.2,5.3,5.4,5.5,5.6,5.7,5.8,5.9,5.11,6,4
+yes,yes,yes
