@@ -1,0 +1,137 @@
+welcome
+Welcome to Horlicks World!
+
+
+#Greetings
+@Greeting:Hi    Welcome to junior Horlicks ! How can I help you?
+@Greeting:Bye   Good Bye!!! Thank you for interacting with us..
+@Greeting:help  We can help you about junior horlicks. How may I help you?
+
+
+#HorlicksScience
+@HorlicksScience:DHA   Docosahexaenoic acid, or DHA, is a polyunsaturated omega-3 fatty acid (PUFA) found throughout the body.  It is also an important structural component of heart tissue
+@HorlicksScience:Choline  Choline is helpful for development of brain function since it plays a role in learning, remembering, logical thinking and concentration abilities.
+@HorlicksScience:(Acidity Regulator)  Acidity regulators, or pH control agents, are food additives added to change or maintain pH
+@HorlicksScience:Immune   Junior Horlicks contains 6 Immuno-nutrients : zinc, copper, selenium, vitamins A, C, E, known to aid in healthy immune function.
+
+
+#Side_effects
+Slot:
+@OtherProducts
+
+@sideEffects  There are two possible side effects of Horlicks if we drink more than its recommended amount. It can raise blood pressure and may cause palpitation in some people.
+@OtherProducts:Complan  Great!!! what you like about $OtherProducts
+@OtherProducts:Bournvita  Great!!! what you like about $OtherProducts
+@OtherProducts:Boost  Great!!! what you like about $OtherProducts
+#Side_effects   There are two possible side effects of Horlicks if we drink more than its recommended amount. 1. It can raise blood pressure and may cause palpitation in some people.
+
+
+#ExpiryPeriod
+@Expiry:expiry It is best before 12 months from date of manunfacturing
+#ExpiryPeriod  Expiry period is best before 12 months from manufacturing date
+
+
+#ingredients
+@content:(Calcium content)   Calcium served is 741 mg per 100 gm of junior horlicks
+@content:Fat   Fat served is 2.0 gm per 100 gm  of junior horlicks
+@content:Protein  Protien served is 11 gm per 100 gm  of junior horlicks
+@content:Carbohydrate  Carbohydrates served is 13.94 gm per 100 gm  of junior horlicks
+@content:Phosphorous  Phosphorous served is 280 mg per 100 gm  of junior horlicks
+@content:(1 serve)  1 serve( two scoops) equals 27 gm  of junior horlicks
+@content:color  Junior Horlicks comes in Brown and white color
+@content:(Drinks per pack)  No. of Drinks per 500 gm is 18 drinks of junior horlicks
+@ingredients:ingredients && @stage:(Stage 1)   Junior Horlicks stage 1 contains nutrients like DHA, Choline, Iron, Iodine etc important for brain development.
+@ingredients:ingredients && @stage:(Stage 2)   Junior Horlicks Stage 2 contains protein and milk calcium that are known to be important for height gain, along with 6 Immuno-Nutrients known to aid healthy immune function.
+@ingredients:ingredients   Contents are Wheat flour (33%), Malted Barley (extracted solids) (30%), Milk Solids (29%), Sugar, Minerals, Vitamins, Salt, Acidity regulator (INS 501 (II)), Nature Identical Flavoring Substances(@flavour), Protein Isolate, DHA Rich Algal Oil.
+
+
+#flavour
+Slot:
+@flavour
+
+@flavour != 'Chocolate' || @flavour != 'Original'  Sorry $flavour flavour is not available. In junior Horlicks only 2 flavours are available i.e. Chocolate and Original
+
+
+#Size
+Slot:
+#Size
+
+@size && @flavour  Alright you need @size size @flavour flavour junior Horlicks!!! Anything else
+@size:small   Alright... @size size selected? what flavour do you want?
+@flavour:chocolate && @flavour:original  Chocolate and Original flavours selected by you
+@flavour:chocolate Alright  @flavour flavour  selected by you..
+@flavour:original  Alright @flavour flavour  selected by you..
+@flavour:flavour  Available flavours in junior horlicks are Chocolate and Original
+@size:large Alright... @size size selected? what flavour do you want?
+@size:medium  Alright... @size size selected? what flavour do you want?
+#Size  Available size are Small, Medium and Large
+
+
+#ageGroup
+@AgeGroup:agegroup Age group for Junior Horlicks is 2 to 6 years
+@sys-number > 1.9 && @sys-number < 3.9  Alright!!! Junior Horlicks Stage 1 is suggested for age group 2 to 3 years.
+@sys-number > 3.9 && @sys-number < 6.1  Alright!!! Junior Horlicks Stage 2 is suggested for age group 4 to 6 years.
+@sys-number < 2.1  	Mother's milk is considered best for kid's below 2 years
+@sys-number > 6.1  Horlicks Growth plus is suggested for age group 7 to 9 years
+
+
+#JuniorHorlicks
+@JuniorHorlicks:Junior_Horlicks  Junior Horlicks is for toddlers who are fussy eaters and don't get the right nutrition. It contains DHA and choline for brain development
+@JuniorHorlicks:Horlicks   Horlicks is health drink which provides different nutrients. We can help you with junior horlicks!!!
+@Issues:refuseToEat  Never force your child to eat, but always invite them to eat food when all are on the table. Avoid offering junk food as a substitute
+@Issues:HealthyDiet  Healthy diet includes Vegetables, fruits, Dairy products, cereals, whole grains, appropriate water
+@Issues:CalciumWeight Researchers have noted that people who drink more calcium-rich beverages, like milk, compared to low-milk drinkers have lower body weight.
+@Issues:fussyEater  Encourage them to try at least a few bites of different nutritious foods at each meal.
+@Issues:snacks  Peanut butter and cottage cheese sandwiches, fruit, tofu or chicken salads are healthy snacks you can offer your child.
+@Issues:breakfast  A good breakfast fuels you up and gets you ready for the day.
+@Issues:Vegetarian  You can go for diet which consist of mainly low-calorie, high-fiber foods such as fruits, vegetables and grains
+@Issues:balancedDiet  When all the nutrients are present in the correct proportion and in the right amount in your child's diet, they form balanced nutrition.
+#JuniorHorlicks  Junior Horlicks is for toddlers who are fussy eaters and don't get the right nutrition. It contains DHA and choline for brain development
+
+
+#Order
+@Order:Horlicks Great!!! We can help you with size, flavours, price , ingredients for Junior Horlicks!!! what you want to know?
+@Order:order Great !!! What flavour would you prefer?
+
+#price
+Slot:
+@size
+@flavour
+
+@price:small && @price:medium && @price:large Price for small size $flavour is Rs. 128.25, medium size $flavour is Rs. 275 and large size $flavour is Rs. 416
+@price:medium && @price:large  Price for medium size $flavour is Rs. 275 and Price for large size $flavour is Rs. 416
+@price:small && @price:large  Price for small size $flavour is Rs. 128.25 and Price for large size $flavour is Rs. 416
+@price:small && @price:medium Price for small size $flavour is Rs. 128.25 and Price for medium size $flavour is Rs. 275
+@price:small  Price for small size $flavour is Rs. 128.25
+@price:medium  Price for medium size $flavour is Rs. 275
+@price:large  Price for large size $flavour is Rs. 416
+#price  Price for small size is Rs. 128.25, or medium size is Rs. 275, for large size is Rs. 416
+
+
+#done 
+@done:done  Thank you..
+@done:like  Thank you for your feedback!!!
+#done  Thank you for interacting with us. Will you like to give feedback, so that our agent will get back to you.
+
+Feedback
+@yes
+Slot:
+@sys-person
+@email.values
+ {
+  "context": {
+    "email": "<?input.text?>"
+  }
+}
+@sys-number
+
+Thank you $person. Our agent will contact you on you number $number and $email
+
+@no
+Thank you... Anything else?
+
+#Discount
+@discount:discount200  Discount on 200 gm (small size ) packet is 10% of mrp
+@discount:discount500  Discount on 500 gm (medium size ) packet is 15% of mrp
+@discount:discount1    Discount on 1000 gm (large size ) packet is 20% of mrp
+@discount:discount     Discount available are 10% on 200gm packet, 15% on 500gm packet and 20% on 1000 gm of junior horlicks
